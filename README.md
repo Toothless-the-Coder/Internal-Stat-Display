@@ -73,8 +73,7 @@ Each LCD is independently addressable on the I2C bus:
 
 | Component | Price | Source |
 |-----------|-------|--------|
-| Raspberry Pi Pico | $5 | raspberrypi.com |
-| 3x LCD 1602 + I2C backpack | $3-5 each | Amazon/AliExpress |
-| Micro USB cable | $2-5 | Any electronics store |
-| Breadboard & jumper wires | $5-10 | Electronics kit |
-| **Total** | **~$30-40** | Budget-friendly! |
+| Raspberry Pi Pico | $6 | digikey |
+| 3x LCD 1602 + I2C backpack | $14.99 each | WaveShare |
+| Micro USB cable | $7.99| newegg |
+| **Total** | **~$78.49** | |
