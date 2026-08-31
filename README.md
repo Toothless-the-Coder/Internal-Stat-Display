@@ -5,7 +5,7 @@
 
 ## Why I Built This
 
-I wanted a **physical, always-on display** of my system stats without using screen real estate or keeping another app open. Most monitoring tools are digital dashboards on your monitor—I wanted something tangible on my desk. Plus, there's something satisfying about watching real hardware respond to your system's performance in real-time.
+I wanted a **physical, always-on display** of my system stats without using screen real estate or keeping another app open. Most monitoring tools are digital dashboards on your monitor—I wanted something tangible in my computer. Plus, there's something satisfying about watching real hardware respond to your system's performance in real-time.
 
 ## What It Does
 
