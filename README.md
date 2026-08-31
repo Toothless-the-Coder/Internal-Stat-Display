@@ -1,7 +1,4 @@
-<img width="957" height="963" alt="Screenshot 2026-06-30 104208" src="https://github.com/user-attachments/assets/607aaf98-ea60-49aa-be36-d177a4b82aee" />
-<img width="1073" height="547" alt="Screenshot 2026-06-15 144144" src="https://github.com/user-attachments/assets/9676ddd9-fd63-4346-b980-2573a8146d65" />
-<img width="1025" height="300" alt="Screenshot 2026-06-14 211706" src="https://github.com/user-attachments/assets/60bbf416-721c-4d7d-b440-d447574e5e66" />
-<img width="658" height="255" alt="Screenshot 2026-06-11 095840" src="https://github.com/user-attachments/assets/5e51f81d-c3c4-4936-8111-69059166b957" />
+
 # Pi Pico Computer Stats Display
 
 > A compact, always-on dashboard for monitoring your Linux system—built with hardware that costs less than a coffee.
@@ -73,6 +70,17 @@ Each LCD is independently addressable on the I2C bus:
 - Low power consumption (~500mA)
 - Auto-detection of connected displays
 
+## How to assemble
+1. Place the screens into their circular cutouts on the front
+2. Slide in the plate behind the screens to keep them from falling back
+3. Upload the code onto the raspberry pi
+4. Plug the screens into the raspberry Pi
+5. Route the cable from the usb headers through the cutout in the backplate and plug it into the raspberry pi's usb port
+6. Screw or glue the raspberry pi's securing plate on (I recommend screws)
+7. Screw on the back and top plate and connect it to the usb headers
+8. Click it into place in your pc case (Designed specifically for mine so you'll have to edit the external case to make it fit your pc)
+9. Enjoy the beautiful displays!
+
 ## What You Need
 
 | Component | Price | Source | Link |
@@ -82,3 +90,7 @@ Each LCD is independently addressable on the I2C bus:
 | Micro USB cable | $7.99 | newegg | https://www.newegg.com/p/27U-00H1-000P4?Item=9SIAERNM1X0850 |
 | **Total** | **~$78.49** | | |
 
+<img width="957" height="963" alt="Screenshot 2026-06-30 104208" src="https://github.com/user-attachments/assets/607aaf98-ea60-49aa-be36-d177a4b82aee" />
+<img width="1073" height="547" alt="Screenshot 2026-06-15 144144" src="https://github.com/user-attachments/assets/9676ddd9-fd63-4346-b980-2573a8146d65" />
+<img width="1025" height="300" alt="Screenshot 2026-06-14 211706" src="https://github.com/user-attachments/assets/60bbf416-721c-4d7d-b440-d447574e5e66" />
+<img width="658" height="255" alt="Screenshot 2026-06-11 095840" src="https://github.com/user-attachments/assets/5e51f81d-c3c4-4936-8111-69059166b957" />
