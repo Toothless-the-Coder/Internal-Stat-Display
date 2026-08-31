@@ -94,3 +94,4 @@ Each LCD is independently addressable on the I2C bus:
 <img width="1073" height="547" alt="Screenshot 2026-06-15 144144" src="https://github.com/user-attachments/assets/9676ddd9-fd63-4346-b980-2573a8146d65" />
 <img width="1025" height="300" alt="Screenshot 2026-06-14 211706" src="https://github.com/user-attachments/assets/60bbf416-721c-4d7d-b440-d447574e5e66" />
 <img width="658" height="255" alt="Screenshot 2026-06-11 095840" src="https://github.com/user-attachments/assets/5e51f81d-c3c4-4936-8111-69059166b957" />
+I do not have a hackatime project for this
