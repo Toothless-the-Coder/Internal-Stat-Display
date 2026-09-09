@@ -20,28 +20,8 @@ This system continuously monitors your Linux computer and displays key performan
 
 ### Component Wiring Diagram
 
-```
-                    Raspberry Pi Pico
-                    
-                    USB [to computer]
-                     ▲
-                     │
-        ┌────────────┼────────────┐
-        │            │            │
-      VBUS          GND     GPIO0/GPIO1
-        │            │        (SDA/SCL)
-        │            │           │
-        ├────────────┼───────────┬┤
-        │            │           ││
-     ┌──┴──┐     ┌───┴──┐   ┌───┴┴──┐
-     │     │     │      │   │       │
-    LCD1  LCD2  LCD3   GND  Pull-up  (optional)
-   0x27  0x26  0x25    All  4.7kΩ   Resistors
-     │     │     │      │   │
-    VCC   VCC   VCC    GND  
-     │     │     │      │
-    (All connected in parallel on same 4 wires)
-```
+<img width="1472" height="860" alt="image" src="https://github.com/user-attachments/assets/ce30568d-7762-4edf-bfb5-d55bf5ed1c0a" />
+
 
 ## The Three Screens
 
