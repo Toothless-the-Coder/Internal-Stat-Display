@@ -1,24 +1,15 @@
 
 # Pi Pico Computer Stats Display
 
-> A compact, always-on dashboard for monitoring your Linux system—built with hardware that costs less than a coffee.
 
 ## Why I Built This
 
-I wanted a **physical, always-on display** of my system stats without using screen real estate or keeping another app open. Most monitoring tools are digital dashboards on your monitor—I wanted something tangible in my computer. Plus, there's something satisfying about watching real hardware respond to your system's performance in real-time.
+I wanted a **physical, always-on display** of my system stats without using up screen space or keeping another app open. Most monitoring tools are digital dashboards on your monitor—I wanted something tangible in my computer. Plus, there's something satisfying about watching real hardware respond to your system's performance in real-time.
 
 ## What It Does
 
-This system continuously monitors your Linux computer and displays key performance metrics on three physical LCD screens:
+This system continuously monitors your Linux computer and displays key performance metrics on three physical LCD screens
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  SCREEN 1       │    │  SCREEN 2       │    │  SCREEN 3       │
-│                 │    │                 │    │                 │
-│  CPU: 45.2%     │    │  RAM: 62.3%     │    │  GPU: 78%       │
-│  Temp: 52.5°C   │    │  Net: 1.5MB/s   │    │  OK             │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
 
 **Monitored Stats:**
 - CPU usage percentage
