@@ -20,7 +20,8 @@ This system continuously monitors your Linux computer and displays key performan
 
 ### Component Wiring Diagram
 
-<img width="1472" height="860" alt="image" src="https://github.com/user-attachments/assets/ce30568d-7762-4edf-bfb5-d55bf5ed1c0a" />
+<img width="1040" height="713" alt="image" src="https://github.com/user-attachments/assets/3f809458-4b31-476b-9872-5a7039b6b2d9" />
+
 
 
 ## The Three Screens
