@@ -45,8 +45,8 @@ Each LCD is independently addressable on the I2C bus:
 ## How to assemble
 1. Place the screens into their circular cutouts on the front
 2. Slide in the plate behind the screens to keep them from falling back
-3. Upload the code onto the raspberry pi
-4. Plug the screens into the raspberry Pi
+3. Upload the code onto the raspberry pi                                                                 ^
+4. Plug the screens into the raspberry Pi using jumper cables following the wiring diagram just up there |
 5. Route the cable from the usb headers through the cutout in the backplate and plug it into the raspberry pi's usb port
 6. Screw or glue the raspberry pi's securing plate on (I recommend screws)
 7. Screw on the back and top plate and connect it to the usb headers
@@ -71,4 +71,4 @@ Each LCD is independently addressable on the I2C bus:
 <img width="1025" height="300" alt="Screenshot 2026-06-14 211706" src="https://github.com/user-attachments/assets/60bbf416-721c-4d7d-b440-d447574e5e66" />
 <img width="1021" height="399" alt="image" src="https://github.com/user-attachments/assets/f4d8a65f-de95-491f-a1d3-0adbbb943c42" />
 
-I do not have a hackatime project for this, the connectors aren't jst, they're standard 2.54mm shrouded pin sockets, I am planning to have this printed through hack club's print legion
+I do not have a hackatime project for this, the connectors aren't jst, they're standard 2.54mm shrouded pin sockets which will connect to the pi via jumper cables, I am planning to have this printed through hack club's print legion
