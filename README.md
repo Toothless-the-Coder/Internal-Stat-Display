@@ -45,8 +45,8 @@ Each LCD is independently addressable on the I2C bus:
 ## How to assemble
 1. Place the screens into their circular cutouts on the front
 2. Slide in the plate behind the screens to keep them from falling back
-3. Upload the code onto the raspberry pi                                                                 ^
-4. Plug the screens into the raspberry Pi using jumper cables following the wiring diagram just up there |
+3. Upload the code onto the raspberry pi                                                                 
+4. Plug the screens into the raspberry Pi using jumper cables following the wiring diagram just up there 
 5. Route the cable from the usb headers through the cutout in the backplate and plug it into the raspberry pi's usb port
 6. Screw or glue the raspberry pi's securing plate on (I recommend screws)
 7. Screw on the back and top plate and connect it to the usb headers
