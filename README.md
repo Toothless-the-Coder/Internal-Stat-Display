@@ -10,39 +10,11 @@ I wanted a **physical, always-on display** of my system stats without using up s
 
 This system continuously monitors your Linux computer and displays key performance metrics on three physical LCD screens
 
-
-**Monitored Stats:**
-- CPU usage percentage
-- RAM usage percentage
-- GPU usage percentage
-- CPU temperature
-- Network speed
-
 ### Component Wiring Diagram
 
 <img width="1040" height="713" alt="image" src="https://github.com/user-attachments/assets/3f809458-4b31-476b-9872-5a7039b6b2d9" />
 
-
-
-## The Three Screens
-
-Each LCD is independently addressable on the I2C bus:
-
-| Screen | Address | Content | Purpose |
-|--------|---------|---------|---------|
-| **LCD1** | `0x27` | CPU Usage + Temperature | Processor monitoring |
-| **LCD2** | `0x26` | RAM Usage + Network Speed | Memory & connectivity |
-| **LCD3** | `0x25` | GPU Usage + Status | Graphics performance |
-
-## System Features
-- Real-time system stat monitoring (CPU, RAM, GPU, Temperature, Network)
-- Display on three separate 16x2 character LCD screens
-- USB serial communication from host computer
-- JSON-based protocol for easy extension
-- Low power consumption (~500mA)
-- Auto-detection of connected displays
-
-## How to assemble
+## Assenbly instructions
 1. Place the screens into their circular cutouts on the front
 2. Slide in the plate behind the screens to keep them from falling back
 3. Upload the code onto the raspberry pi                                                                 
@@ -53,7 +25,7 @@ Each LCD is independently addressable on the I2C bus:
 8. Click it into place in your pc case (Designed specifically for mine so you'll have to edit the external case to make it fit your pc)
 9. Enjoy the beautiful displays!
 
-## What You Need
+## BOM
 
 | Component | Price | Source | Link |
 |-----------|-------|--------|------|
