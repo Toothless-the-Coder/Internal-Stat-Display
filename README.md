@@ -36,6 +36,7 @@ This system continuously monitors your Linux computer and displays key performan
 | Digikey Shipping | $8.49 | FedEx Ground | |
 | NewEgg Shipping | Free | | |
 | WaveShare Shipping | $10.00 | | |
+| Print Legion | $0.00 | | |
 | **Total** | **~$78.54** | | |
 
 <img width="957" height="963" alt="Screenshot 2026-06-30 104208" src="https://github.com/user-attachments/assets/607aaf98-ea60-49aa-be36-d177a4b82aee" />
@@ -43,4 +44,4 @@ This system continuously monitors your Linux computer and displays key performan
 <img width="1025" height="300" alt="Screenshot 2026-06-14 211706" src="https://github.com/user-attachments/assets/60bbf416-721c-4d7d-b440-d447574e5e66" />
 <img width="1021" height="399" alt="image" src="https://github.com/user-attachments/assets/f4d8a65f-de95-491f-a1d3-0adbbb943c42" />
 
-I do not have a hackatime project for this, the connectors aren't jst, they're standard 2.54mm shrouded pin sockets which will connect to the pi via jumper cables, I am planning to have this printed through hack club's print legion
+I do not have a hackatime project for this, the connectors aren't jst, they're standard 2.54mm shrouded pin sockets which will connect to the pi via jumper cables, I am planning to have this printed through hack club's print legion, the last reviewer said to include the costs of print legion in the bom, but I was under the impression that print legion was free.
