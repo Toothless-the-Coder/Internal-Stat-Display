@@ -36,8 +36,8 @@ This system continuously monitors your Linux computer and displays key performan
 | Digikey Shipping | $8.49 | FedEx Ground | |
 | NewEgg Shipping | Free | | |
 | WaveShare Shipping | $10.00 | | |
-| Print Legion | $0.00 | | |
-| **Total** | **~$78.54** | | |
+| Print Legion | $5.00 | | |
+| **Total** | **~$83.54** | | |
 
 <img width="957" height="963" alt="Screenshot 2026-06-30 104208" src="https://github.com/user-attachments/assets/607aaf98-ea60-49aa-be36-d177a4b82aee" />
 <img width="1098" height="595" alt="image" src="https://github.com/user-attachments/assets/cf387ef1-4976-4b4c-9a94-212f0a76cf5f" />
