@@ -1,28 +1,31 @@
+
 """
-Configuration for the Pi Pico Stat Display
-Modify these settings based on your hardware setup
+Settings for the Raspberry Pi Pico stats display.
+
+Change these values to match your hardware and how you
+want the information to show up on the screens.
 """
 
-# I2C Configuration
-I2C_PORT = 0  # I2C0 (GPIO0/GP1) or I2C1 (GPIO2/3)
-I2C_SDA = 0   # GPIO0 for I2C0, or GPIO2 for I2C1
-I2C_SCL = 1   # GPIO1 for I2C0, or GPIO3 for I2C1
+# I2C pins
+I2C_PORT = 0
+I2C_SDA = 0
+I2C_SCL = 1
 
-# LCD I2C Addresses (default for common I2C LCD modules)
-# Adjust these based on your specific modules
-LCD_ADDRESSES = [0x27, 0x26, 0x25]  # 3 LCD displays
+# Addresses for the LCD screens
+# These are common addresses, but yours might be different.
+LCD_ADDRESSES = [0x27, 0x26, 0x25]
 
-# Display settings
-UPDATE_INTERVAL = 1000  # Update display every 1000ms (1 second)
-ROTATION_INTERVAL = 5000  # Rotate displayed stats every 5 seconds
+# How often the screens update and switch between stats (in milliseconds)
+UPDATE_INTERVAL = 1000
+ROTATION_INTERVAL = 5000
 
-# Serial Configuration
+# Serial connection settings
 SERIAL_BAUD = 115200
-SERIAL_TIMEOUT = 100  # milliseconds
+SERIAL_TIMEOUT = 100
 
-# Stats display rotation (which stats show on each screen)
+# Choose which information appears on each screen
 STAT_ROTATION = {
-    0: ['cpu', 'temp'],      # Screen 1: CPU and Temperature
-    1: ['ram', 'network'],   # Screen 2: RAM and Network
-    2: ['gpu', 'info']       # Screen 3: GPU and System Info
+    0: ['cpu', 'temp'],       # CPU usage and temperature
+    1: ['ram', 'network'],    # Memory usage and network activity
+    2: ['gpu', 'info']        # GPU usage and system information
 }
